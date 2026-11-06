@@ -1106,3 +1106,7 @@ A new root `.gitignore` keeps these out of version control:
 - OS files.
 
 The benchmark fixtures (48 MB), results, figures and reports stay tracked, because they are the project's measured record. `git status` now lists only source, docs and `benchmarks/`.
+
+## Step 18: first commit and push
+
+The project went into git as one initial commit (`5eb5d87`, 2,064 files) on `main` and was pushed to https://github.com/MetaphorOS/Cpp_Sudoku. Everything listed in `.gitignore` (Step 17) stayed out. This log entry was written after that commit, so it isn't in it yet.

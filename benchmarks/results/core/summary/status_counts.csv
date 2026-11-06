@@ -1,0 +1,16 @@
+population,solver,op,completed,memory_rejected,pruned_by_prefix,timeout
+A,dlx,enumerate,27,0,0,0
+A,dlx,first,174,3,0,123
+A,dlx,unique,174,3,123,0
+A,mrv,enumerate,27,0,0,0
+A,mrv,first,157,0,0,143
+A,mrv,unique,157,0,143,0
+A,naive,enumerate,27,0,0,0
+A,naive,first,126,0,0,174
+A,naive,unique,125,0,174,1
+B,dlx,first,160,0,0,0
+B,dlx,unique,160,0,0,0
+B,mrv,first,154,0,0,6
+B,mrv,unique,153,0,6,1
+B,naive,first,127,0,0,33
+B,naive,unique,127,0,33,0

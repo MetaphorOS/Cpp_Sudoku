@@ -1,0 +1,29 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 99.84      6.37     6.37                             sudoku::SolveResult sudoku::(anonymous namespace)::runWith<1, false>(sudoku::Board const&, sudoku::Constraints, sudoku::SolveOptions const&, std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long long, std::ratio<1ll, 1000000000ll> > >)
+  0.16      6.38     0.01        7     1.43     1.43  bench::Row::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double)
+  0.00      6.38     0.00       98     0.00     0.00  __gcc_deregister_frame
+  0.00      6.38     0.00       73     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()
+  0.00      6.38     0.00       39     0.00     0.00  bench::Row::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      6.38     0.00       22     0.00     0.00  bench::Row::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned long long)
+  0.00      6.38     0.00        8     0.00     0.00  bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  0.00      6.38     0.00        3     0.00     0.00  bench::Row::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, long long)
+  0.00      6.38     0.00        3     0.00     0.00  std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&)
+  0.00      6.38     0.00        2     0.00     0.00  bench::sampleMemory()
+  0.00      6.38     0.00        2     0.00     0.00  sudoku::MRVBacktrackingSolver::run(sudoku::Board const&, sudoku::SolveOptions const&) const
+  0.00      6.38     0.00        2     0.00     0.00  sudoku::NaiveBacktrackingSolver::run(sudoku::Board const&, sudoku::SolveOptions const&) const
+  0.00      6.38     0.00        1     0.00     0.00  bench::hex[abi:cxx11](unsigned long long)
+  0.00      6.38     0.00        1     0.00     0.00  bench::fnv1a(std::basic_string_view<char, std::char_traits<char> >)
+  0.00      6.38     0.00        1     0.00     0.00  bench::readFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      6.38     0.00        1     0.00     0.00  sudoku::Board::parse(std::basic_string_view<char, std::char_traits<char> >)
+  0.00      6.38     0.00        1     0.00     0.00  sudoku::Board::Board(int)
+  0.00      6.38     0.00        1     0.00     0.00  sudoku::DLXSolver::estimate(sudoku::Board const&)
+  0.00      6.38     0.00        1     0.00     0.00  double __gnu_cxx::__stoa<double, double, char>(double (*)(char const*, char**), char const*, char const*, unsigned long long*)
+  0.00      6.38     0.00        1     0.00     0.00  bench::Row::header[abi:cxx11]() const
+  0.00      6.38     0.00        1     0.00     0.00  bench::Row::values[abi:cxx11]() const
+  0.00      6.38     0.00        1     0.00     0.00  sudoku::Board::toPrettyString[abi:cxx11]() const
+  0.00      6.38     0.00        1     0.00     0.00  std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::~vector()
+  0.00      6.38     0.00        1     0.00     0.00  strtod

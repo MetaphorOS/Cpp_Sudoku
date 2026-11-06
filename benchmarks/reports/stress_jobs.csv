@@ -1,0 +1,26 @@
+fixture_id,solver,op,budget_s,dlx_budget,queue,reason
+A-n12-e006221-s001,dlx,first,1800,,parallel,frontier: first all-fail cell for dlx at 30% (A); last completion n=11
+A-n08-e001638-s001,dlx,first,1800,,parallel,frontier: first all-fail cell for dlx at 40% (A); last completion n=7
+A-n06-e000648-s001,dlx,first,1800,,parallel,frontier: first all-fail cell for dlx at 50% (A); last completion n=5
+A-n06-e000778-s001,dlx,first,1800,,parallel,frontier: first all-fail cell for dlx at 60% (A); last completion n=5
+A-n06-e000907-s001,dlx,first,1800,,parallel,frontier: first all-fail cell for dlx at 70% (A); last completion n=5
+A-n10-e003000-s001,mrv,first,1800,,parallel,frontier: first all-fail cell for mrv at 30% (A); last completion n=9
+A-n07-e000960-s001,mrv,first,1800,,parallel,frontier: first all-fail cell for mrv at 40% (A); last completion n=6
+A-n06-e000648-s001,mrv,first,1800,,parallel,frontier: first all-fail cell for mrv at 50% (A); last completion n=5
+A-n05-e000375-s001,mrv,first,1800,,parallel,frontier: first all-fail cell for mrv at 60% (A); last completion n=4
+A-n06-e000907-s001,mrv,first,1800,,parallel,frontier: first all-fail cell for mrv at 70% (A); last completion n=5
+A-n11-e002928-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 20% (A); last completion n=10
+A-n08-e001229-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 30% (A); last completion n=7
+A-n06-e000518-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 40% (A); last completion n=5
+A-n05-e000313-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 50% (A); last completion n=4
+A-n05-e000375-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 60% (A); last completion n=4
+A-n05-e000438-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 70% (A); last completion n=4
+B-n10-e003000-s001,mrv,first,1800,,parallel,frontier: first all-fail cell for mrv at 30% (B); last completion n=9
+B-n07-e000960-s001,mrv,first,1800,,parallel,frontier: first all-fail cell for mrv at 40% (B); last completion n=6
+B-n11-e002928-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 20% (B); last completion n=10
+B-n08-e001229-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 30% (B); last completion n=7
+B-n06-e000518-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 40% (B); last completion n=5
+B-n05-e000313-s001,naive,first,1800,,parallel,frontier: first all-fail cell for naive at 50% (B); last completion n=4
+A-n15-e035438-s001,dlx,first;unique,1800,8589934592,parallel,DLX memory_rejected at 256 MiB (estimate 261 MiB); rerun with an 8 GiB budget
+A-n15-e035438-s002,dlx,first;unique,1800,8589934592,parallel,DLX memory_rejected at 256 MiB (estimate 261 MiB); rerun with an 8 GiB budget
+A-n15-e035438-s003,dlx,first;unique,1800,8589934592,parallel,DLX memory_rejected at 256 MiB (estimate 261 MiB); rerun with an 8 GiB budget

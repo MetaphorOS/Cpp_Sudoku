@@ -1,0 +1,49 @@
+# Build output (every CMake build directory: build-ninja, build-debug, build-ubsan, ...)
+build/
+build-*/
+old_builds/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+compile_commands.json
+Testing/
+
+# Compiled objects and binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.gcda
+*.gcno
+gmon.out
+
+# Python
+requirements.txt
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors and IDEs
+.vscode/
+.idea/
+.vs/
+*.swp
+*~
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini

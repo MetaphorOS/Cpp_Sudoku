@@ -1,0 +1,463 @@
+population,n,empty,target_pct,solver,fixtures,jobs,queue,pilot_first,pilot_unique
+A,1,0,10,naive,3,9,serial,2e-06 s,1.5e-06 s
+A,1,0,10,mrv,3,9,serial,3.7e-06 s,2.6e-06 s
+A,1,0,10,dlx,3,9,serial,7.1e-06 s,5.9e-06 s
+A,1,1,50,naive,3,9,serial,6.8e-06 s,6e-06 s
+A,1,1,50,mrv,3,9,serial,8.8e-06 s,7.9e-06 s
+A,1,1,50,dlx,3,9,serial,8.1e-06 s,6.9e-06 s
+A,2,2,10,naive,3,9,serial,3e-06 s,2.4e-06 s
+A,2,2,10,mrv,3,9,serial,4.9e-06 s,3.6e-06 s
+A,2,2,10,dlx,3,9,serial,5.2e-06 s,4e-06 s
+A,2,3,20,naive,3,9,serial,3.6e-06 s,2.9e-06 s
+A,2,3,20,mrv,3,9,serial,5.5e-06 s,4e-06 s
+A,2,3,20,dlx,3,9,serial,4.9e-06 s,4.5e-06 s
+A,2,5,30,naive,3,9,serial,3.4e-06 s,3e-06 s
+A,2,5,30,mrv,3,9,serial,5.9e-06 s,3.9e-06 s
+A,2,5,30,dlx,3,9,serial,5.5e-06 s,6.9e-06 s
+A,2,6,40,naive,3,9,serial,3.5e-06 s,3.2e-06 s
+A,2,6,40,mrv,3,9,serial,5.1e-06 s,4.4e-06 s
+A,2,6,40,dlx,3,9,serial,6.5e-06 s,5.3e-06 s
+A,2,8,50,naive,3,9,serial,3.2e-06 s,3.5e-06 s
+A,2,8,50,mrv,3,9,serial,5e-06 s,4.6e-06 s
+A,2,8,50,dlx,3,9,serial,7e-06 s,6.8e-06 s
+A,2,10,60,naive,3,9,serial,3.9e-06 s,3.4e-06 s
+A,2,10,60,mrv,3,9,serial,4.8e-06 s,4.4e-06 s
+A,2,10,60,dlx,3,9,serial,7e-06 s,6.5e-06 s
+A,2,11,70,naive,3,9,serial,3.5e-06 s,3.5e-06 s
+A,2,11,70,mrv,3,9,serial,5.8e-06 s,5.2e-06 s
+A,2,11,70,dlx,3,9,serial,7e-06 s,7e-06 s
+A,3,8,10,naive,3,6,serial,3.9e-06 s,3.4e-06 s
+A,3,8,10,mrv,3,6,serial,6.3e-06 s,4.9e-06 s
+A,3,8,10,dlx,3,6,serial,7e-06 s,6.7e-06 s
+A,3,16,20,naive,3,6,serial,4.3e-06 s,3.6e-06 s
+A,3,16,20,mrv,3,6,serial,6.2e-06 s,4.8e-06 s
+A,3,16,20,dlx,3,6,serial,8.6e-06 s,7.8e-06 s
+A,3,24,30,naive,3,6,serial,4.6e-06 s,4.3e-06 s
+A,3,24,30,mrv,3,6,serial,6.2e-06 s,5.3e-06 s
+A,3,24,30,dlx,3,6,serial,1.04e-05 s,1.02e-05 s
+A,3,32,40,naive,3,6,serial,5.5e-06 s,5.2e-06 s
+A,3,32,40,mrv,3,6,serial,6.4e-06 s,6.5e-06 s
+A,3,32,40,dlx,3,6,serial,1.57e-05 s,2.06e-05 s
+A,3,41,50,naive,3,6,serial,6.9e-06 s,7e-06 s
+A,3,41,50,mrv,3,6,serial,7.8e-06 s,6.8e-06 s
+A,3,41,50,dlx,3,6,serial,2.58e-05 s,2.26e-05 s
+A,3,49,60,naive,3,6,serial,1.8e-05 s,2.03e-05 s
+A,3,49,60,mrv,3,6,serial,1.06e-05 s,9.5e-06 s
+A,3,49,60,dlx,3,6,serial,2.92e-05 s,2.9e-05 s
+A,3,57,70,naive,3,6,serial,0.0001876 s,0.000191 s
+A,3,57,70,mrv,3,6,serial,2.29e-05 s,1.48e-05 s
+A,3,57,70,dlx,3,6,serial,3.62e-05 s,3.6e-05 s
+A,4,26,10,naive,3,6,serial,5.4e-06 s,4.6e-06 s
+A,4,26,10,mrv,3,6,serial,9.3e-06 s,6.3e-06 s
+A,4,26,10,dlx,3,6,serial,1.68e-05 s,1.66e-05 s
+A,4,51,20,naive,3,6,serial,5.8e-06 s,6.6e-06 s
+A,4,51,20,mrv,3,6,serial,8.6e-06 s,7.4e-06 s
+A,4,51,20,dlx,3,6,serial,2.95e-05 s,2.84e-05 s
+A,4,77,30,naive,3,6,serial,7.9e-06 s,9.2e-06 s
+A,4,77,30,mrv,3,6,serial,1.06e-05 s,9.6e-06 s
+A,4,77,30,dlx,3,6,serial,4.27e-05 s,4.5e-05 s
+A,4,102,40,naive,3,6,serial,1.92e-05 s,2.08e-05 s
+A,4,102,40,mrv,3,6,serial,1.3e-05 s,1.26e-05 s
+A,4,102,40,dlx,3,6,serial,6.22e-05 s,6.05e-05 s
+A,4,128,50,naive,3,6,serial,0.009586 s,0.01087 s
+A,4,128,50,mrv,3,6,serial,3.06e-05 s,2.91e-05 s
+A,4,128,50,dlx,3,6,serial,0.000104 s,9.41e-05 s
+A,4,154,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,4,154,60,mrv,3,6,parallel,12.81 s,12.67 s
+A,4,154,60,dlx,3,6,serial,0.0001519 s,0.0001576 s
+A,4,179,70,naive,3,6,parallel,26.08 s,26.54 s
+A,4,179,70,mrv,3,6,serial,1.175 s,1.131 s
+A,4,179,70,dlx,3,6,serial,0.0002044 s,0.0002091 s
+A,5,63,10,naive,3,6,serial,1.15e-05 s,1.07e-05 s
+A,5,63,10,mrv,3,6,serial,2.1e-05 s,1.94e-05 s
+A,5,63,10,dlx,3,6,serial,5.43e-05 s,4.22e-05 s
+A,5,125,20,naive,3,6,serial,9.9e-06 s,1.39e-05 s
+A,5,125,20,mrv,3,6,serial,1.39e-05 s,1.25e-05 s
+A,5,125,20,dlx,3,6,serial,7.8e-05 s,8.18e-05 s
+A,5,188,30,naive,3,6,serial,2.22e-05 s,2.46e-05 s
+A,5,188,30,mrv,3,6,serial,1.8e-05 s,1.77e-05 s
+A,5,188,30,dlx,3,6,serial,0.0001604 s,0.0001673 s
+A,5,250,40,naive,3,6,serial,0.04232 s,0.04141 s
+A,5,250,40,mrv,3,6,serial,5.25e-05 s,5.27e-05 s
+A,5,250,40,dlx,3,6,serial,0.0002671 s,0.0002647 s
+A,5,313,50,naive,3,6,parallel,timeout,timeout
+A,5,313,50,mrv,3,6,parallel,timeout,timeout
+A,5,313,50,dlx,3,6,serial,0.0239 s,0.02409 s
+A,5,375,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,5,375,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,5,375,60,dlx,3,6,serial,0.06322 s,0.06677 s
+A,5,438,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,5,438,70,mrv,3,6,serial,3.322 s,3.276 s
+A,5,438,70,dlx,3,6,serial,0.001579 s,0.001512 s
+A,6,130,10,naive,3,6,serial,1.5e-05 s,1.58e-05 s
+A,6,130,10,mrv,3,6,serial,1.96e-05 s,2.24e-05 s
+A,6,130,10,dlx,3,6,serial,9.18e-05 s,9.5e-05 s
+A,6,259,20,naive,3,6,serial,2.46e-05 s,3.27e-05 s
+A,6,259,20,mrv,3,6,serial,2.87e-05 s,2.79e-05 s
+A,6,259,20,dlx,3,6,serial,0.0002529 s,0.0002635 s
+A,6,389,30,naive,3,6,serial,0.0001611 s,0.0001626 s
+A,6,389,30,mrv,3,6,serial,0.0001132 s,7.69e-05 s
+A,6,389,30,dlx,3,6,serial,0.0005949 s,0.000565 s
+A,6,518,40,naive,3,6,parallel,timeout,pruned_by_prefix
+A,6,518,40,mrv,3,6,serial,0.07152 s,0.07668 s
+A,6,518,40,dlx,3,6,serial,0.0009104 s,0.0009245 s
+A,6,648,50,naive,3,6,parallel,timeout,pruned_by_prefix
+A,6,648,50,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,6,648,50,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,6,778,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,6,778,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,6,778,60,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,6,907,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,6,907,70,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,6,907,70,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,7,240,10,naive,3,6,serial,2.24e-05 s,2.34e-05 s
+A,7,240,10,mrv,3,6,serial,2.61e-05 s,2.51e-05 s
+A,7,240,10,dlx,3,6,serial,0.0002452 s,0.000243 s
+A,7,480,20,naive,3,6,serial,5e-05 s,7.02e-05 s
+A,7,480,20,mrv,3,6,serial,4.5e-05 s,4.65e-05 s
+A,7,480,20,dlx,3,6,serial,0.00078 s,0.0007842 s
+A,7,720,30,naive,3,6,parallel,timeout,pruned_by_prefix
+A,7,720,30,mrv,3,6,serial,0.0002088 s,0.0002082 s
+A,7,720,30,dlx,3,6,serial,0.00168 s,0.001659 s
+A,7,960,40,naive,3,6,parallel,timeout,pruned_by_prefix
+A,7,960,40,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,7,960,40,dlx,3,6,serial,0.002887 s,0.002843 s
+A,7,1201,50,naive,3,6,parallel,timeout,pruned_by_prefix
+A,7,1201,50,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,7,1201,50,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,7,1441,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,7,1441,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,7,1441,60,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,7,1681,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,7,1681,70,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,7,1681,70,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,8,410,10,naive,3,6,serial,4.34e-05 s,4.64e-05 s
+A,8,410,10,mrv,3,6,serial,5.05e-05 s,4.69e-05 s
+A,8,410,10,dlx,3,6,serial,0.0006493 s,0.0006023 s
+A,8,819,20,naive,3,6,serial,0.0005124 s,0.0005706 s
+A,8,819,20,mrv,3,6,serial,0.0001216 s,0.0001171 s
+A,8,819,20,dlx,3,6,serial,0.00219 s,0.002117 s
+A,8,1229,30,naive,3,6,parallel,timeout,pruned_by_prefix
+A,8,1229,30,mrv,3,6,serial,0.001063 s,0.001064 s
+A,8,1229,30,dlx,3,6,serial,0.004673 s,0.004965 s
+A,8,1638,40,naive,3,6,parallel,timeout,pruned_by_prefix
+A,8,1638,40,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,8,1638,40,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,8,2048,50,naive,3,6,parallel,timeout,pruned_by_prefix
+A,8,2048,50,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,8,2048,50,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,8,2458,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,8,2458,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,8,2458,60,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,8,2867,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,8,2867,70,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,8,2867,70,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,9,656,10,naive,3,6,serial,7.69e-05 s,8.25e-05 s
+A,9,656,10,mrv,3,6,serial,7.51e-05 s,7.76e-05 s
+A,9,656,10,dlx,3,6,serial,0.001421 s,0.001467 s
+A,9,1312,20,naive,3,6,serial,0.0007054 s,0.002121 s
+A,9,1312,20,mrv,3,6,serial,0.0002095 s,0.000222 s
+A,9,1312,20,dlx,3,6,serial,0.0052 s,0.005222 s
+A,9,1968,30,naive,3,6,parallel,timeout,pruned_by_prefix
+A,9,1968,30,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,9,1968,30,dlx,3,6,serial,0.01148 s,0.01159 s
+A,9,2624,40,naive,3,6,parallel,timeout,pruned_by_prefix
+A,9,2624,40,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,9,2624,40,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,9,3281,50,naive,3,6,parallel,timeout,pruned_by_prefix
+A,9,3281,50,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,9,3281,50,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,9,3937,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,9,3937,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,9,3937,60,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,9,4593,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,9,4593,70,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,9,4593,70,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,10,1000,10,naive,3,6,serial,0.0001052 s,0.0001079 s
+A,10,1000,10,mrv,3,6,serial,0.0001116 s,0.0001228 s
+A,10,1000,10,dlx,3,6,serial,0.003237 s,0.003344 s
+A,10,2000,20,naive,3,6,serial,9.163 s,9.137 s
+A,10,2000,20,mrv,3,6,serial,0.0005901 s,0.0005778 s
+A,10,2000,20,dlx,3,6,serial,0.01182 s,0.01193 s
+A,10,3000,30,naive,3,6,parallel,timeout,pruned_by_prefix
+A,10,3000,30,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,10,3000,30,dlx,3,6,serial,0.02577 s,0.02597 s
+A,10,4000,40,naive,3,6,parallel,timeout,pruned_by_prefix
+A,10,4000,40,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,10,4000,40,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,10,5000,50,naive,3,6,parallel,timeout,timeout
+A,10,5000,50,mrv,3,6,parallel,timeout,timeout
+A,10,5000,50,dlx,3,6,parallel,timeout,timeout
+A,10,6000,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,10,6000,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,10,6000,60,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,10,7000,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,10,7000,70,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,10,7000,70,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,11,1464,10,naive,3,6,serial,0.0002023 s,0.0001928 s
+A,11,1464,10,mrv,3,6,serial,0.0001707 s,0.0001725 s
+A,11,1464,10,dlx,3,6,serial,0.006145 s,0.00608 s
+A,11,2928,20,naive,3,6,parallel,timeout,pruned_by_prefix
+A,11,2928,20,mrv,3,6,serial,0.001278 s,0.001306 s
+A,11,2928,20,dlx,3,6,serial,0.02434 s,0.02442 s
+A,11,4392,30,naive,3,6,parallel,timeout,pruned_by_prefix
+A,11,4392,30,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,11,4392,30,dlx,3,6,serial,1.545 s,1.544 s
+A,11,5856,40,naive,3,6,parallel,timeout,pruned_by_prefix
+A,11,5856,40,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,11,5856,40,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,11,7321,50,naive,3,6,parallel,timeout,pruned_by_prefix
+A,11,7321,50,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,11,7321,50,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,11,8785,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,11,8785,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,11,8785,60,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,11,10249,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,11,10249,70,mrv,3,6,parallel,timeout,timeout
+A,11,10249,70,dlx,3,6,parallel,timeout,timeout
+A,12,2074,10,naive,3,6,serial,0.0008086 s,0.0009462 s
+A,12,2074,10,mrv,3,6,serial,0.0003448 s,0.0003997 s
+A,12,2074,10,dlx,3,6,serial,0.01224 s,0.01214 s
+A,12,4147,20,naive,3,6,parallel,timeout,pruned_by_prefix
+A,12,4147,20,mrv,3,6,serial,0.004565 s,0.008101 s
+A,12,4147,20,dlx,3,6,serial,0.05153 s,0.05118 s
+A,12,6221,30,naive,3,6,parallel,timeout,pruned_by_prefix
+A,12,6221,30,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,12,6221,30,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,12,8294,40,naive,3,6,parallel,timeout,timeout
+A,12,8294,40,mrv,3,6,parallel,timeout,timeout
+A,12,8294,40,dlx,3,6,parallel,timeout,timeout
+A,12,10368,50,naive,3,6,parallel,timeout,pruned_by_prefix
+A,12,10368,50,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,12,10368,50,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,12,12442,60,naive,3,6,parallel,timeout,timeout
+A,12,12442,60,mrv,3,6,parallel,timeout,timeout
+A,12,12442,60,dlx,3,6,parallel,timeout,timeout
+A,12,14515,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,12,14515,70,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,12,14515,70,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,13,2856,10,naive,3,6,serial,0.0005412 s,0.0007756 s
+A,13,2856,10,mrv,3,6,serial,0.0003783 s,0.0003665 s
+A,13,2856,10,dlx,3,6,serial,0.02294 s,0.02279 s
+A,13,5712,20,naive,3,6,parallel,timeout,pruned_by_prefix
+A,13,5712,20,mrv,3,6,serial,0.01008 s,0.01994 s
+A,13,5712,20,dlx,3,6,serial,0.09098 s,0.09193 s
+A,13,8568,30,naive,3,6,parallel,timeout,pruned_by_prefix
+A,13,8568,30,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,13,8568,30,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,13,11424,40,naive,3,6,parallel,timeout,pruned_by_prefix
+A,13,11424,40,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,13,11424,40,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,13,14281,50,naive,3,6,parallel,timeout,pruned_by_prefix
+A,13,14281,50,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,13,14281,50,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,13,17137,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,13,17137,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,13,17137,60,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,13,19993,70,naive,3,6,parallel,timeout,timeout
+A,13,19993,70,mrv,3,6,parallel,timeout,timeout
+A,13,19993,70,dlx,3,6,parallel,timeout,timeout
+A,14,3842,10,naive,3,6,serial,0.000623 s,0.001446 s
+A,14,3842,10,mrv,3,6,serial,0.0005296 s,0.000812 s
+A,14,3842,10,dlx,3,6,serial,0.04602 s,0.04356 s
+A,14,7683,20,naive,3,6,parallel,timeout,timeout
+A,14,7683,20,mrv,3,6,serial,0.04364 s,0.04365 s
+A,14,7683,20,dlx,3,6,serial,0.1729 s,0.1716 s
+A,14,11525,30,naive,3,6,parallel,timeout,pruned_by_prefix
+A,14,11525,30,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,14,11525,30,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,14,15366,40,naive,3,6,parallel,timeout,pruned_by_prefix
+A,14,15366,40,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,14,15366,40,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,14,19208,50,naive,3,6,parallel,timeout,pruned_by_prefix
+A,14,19208,50,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,14,19208,50,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,14,23050,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,14,23050,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,14,23050,60,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,14,26891,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,14,26891,70,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,14,26891,70,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,15,5063,10,naive,3,6,serial,0.0338 s,0.03847 s
+A,15,5063,10,mrv,3,6,serial,0.0009525 s,0.0009706 s
+A,15,5063,10,dlx,3,6,serial,0.07098 s,0.07076 s
+A,15,10125,20,naive,3,6,parallel,timeout,pruned_by_prefix
+A,15,10125,20,mrv,3,6,serial,0.07844 s,0.08364 s
+A,15,10125,20,dlx,3,6,serial,0.2861 s,0.2858 s
+A,15,15188,30,naive,3,6,parallel,timeout,pruned_by_prefix
+A,15,15188,30,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,15,15188,30,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,15,20250,40,naive,3,6,parallel,timeout,pruned_by_prefix
+A,15,20250,40,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,15,20250,40,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,15,25313,50,naive,3,6,parallel,timeout,pruned_by_prefix
+A,15,25313,50,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,15,25313,50,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,15,30375,60,naive,3,6,parallel,timeout,pruned_by_prefix
+A,15,30375,60,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,15,30375,60,dlx,3,6,parallel,timeout,pruned_by_prefix
+A,15,35438,70,naive,3,6,parallel,timeout,pruned_by_prefix
+A,15,35438,70,mrv,3,6,parallel,timeout,pruned_by_prefix
+A,15,35438,70,dlx,3,6,parallel,memory_rejected,memory_rejected
+B,1,0,10,naive,3,6,serial,2.1e-06 s,1.2e-06 s
+B,1,0,10,mrv,3,6,serial,3.9e-06 s,2.8e-06 s
+B,1,0,10,dlx,3,6,serial,7.6e-06 s,6.6e-06 s
+B,1,1,50,naive,3,6,serial,7.1e-06 s,5.9e-06 s
+B,1,1,50,mrv,3,6,serial,8.2e-06 s,8.9e-06 s
+B,1,1,50,dlx,3,6,serial,8.9e-06 s,7.6e-06 s
+B,2,2,10,naive,3,6,serial,3.3e-06 s,2.6e-06 s
+B,2,2,10,mrv,3,6,serial,4.9e-06 s,3.5e-06 s
+B,2,2,10,dlx,3,6,serial,6.2e-06 s,4.9e-06 s
+B,2,3,20,naive,3,6,serial,3.8e-06 s,3.5e-06 s
+B,2,3,20,mrv,3,6,serial,5e-06 s,4.5e-06 s
+B,2,3,20,dlx,3,6,serial,5.8e-06 s,4.1e-06 s
+B,2,5,30,naive,3,6,serial,5.1e-06 s,3.4e-06 s
+B,2,5,30,mrv,3,6,serial,5.8e-06 s,6.2e-06 s
+B,2,5,30,dlx,3,6,serial,9.1e-06 s,6.4e-06 s
+B,2,6,40,naive,3,6,serial,3.7e-06 s,2.8e-06 s
+B,2,6,40,mrv,3,6,serial,5.7e-06 s,4.9e-06 s
+B,2,6,40,dlx,3,6,serial,6.6e-06 s,5.3e-06 s
+B,2,8,50,naive,3,6,serial,3.1e-06 s,3.3e-06 s
+B,2,8,50,mrv,3,6,serial,5.6e-06 s,4.1e-06 s
+B,2,8,50,dlx,3,6,serial,6.2e-06 s,4.9e-06 s
+B,2,10,60,naive,3,6,serial,4.3e-06 s,5.1e-06 s
+B,2,10,60,mrv,3,6,serial,5.6e-06 s,4.4e-06 s
+B,2,10,60,dlx,3,6,serial,6.8e-06 s,6.1e-06 s
+B,2,11,70,naive,3,6,serial,3.9e-06 s,4e-06 s
+B,2,11,70,mrv,3,6,serial,7.4e-06 s,4.8e-06 s
+B,2,11,70,dlx,3,6,serial,7.3e-06 s,6.5e-06 s
+B,3,8,10,naive,3,6,serial,3.9e-06 s,3e-06 s
+B,3,8,10,mrv,3,6,serial,5.8e-06 s,4.4e-06 s
+B,3,8,10,dlx,3,6,serial,9.7e-06 s,6.2e-06 s
+B,3,16,20,naive,3,6,serial,4.5e-06 s,4e-06 s
+B,3,16,20,mrv,3,6,serial,7.3e-06 s,5e-06 s
+B,3,16,20,dlx,3,6,serial,7.8e-06 s,8.6e-06 s
+B,3,24,30,naive,3,6,serial,5e-06 s,3.9e-06 s
+B,3,24,30,mrv,3,6,serial,6.7e-06 s,5.2e-06 s
+B,3,24,30,dlx,3,6,serial,1.06e-05 s,9.7e-06 s
+B,3,32,40,naive,3,6,serial,5.4e-06 s,6.1e-06 s
+B,3,32,40,mrv,3,6,serial,7.1e-06 s,6.5e-06 s
+B,3,32,40,dlx,3,6,serial,1.59e-05 s,1.66e-05 s
+B,3,41,50,naive,3,6,serial,1.07e-05 s,1.78e-05 s
+B,3,41,50,mrv,3,6,serial,8.4e-06 s,7.4e-06 s
+B,3,41,50,dlx,3,6,serial,2.24e-05 s,2.24e-05 s
+B,3,49,60,naive,3,6,serial,8.3e-06 s,1e-05 s
+B,3,49,60,mrv,3,6,serial,9.7e-06 s,8.9e-06 s
+B,3,49,60,dlx,3,6,serial,2.94e-05 s,2.98e-05 s
+B,3,57,70,naive,3,6,serial,0.0001326 s,0.001026 s
+B,3,57,70,mrv,3,6,serial,1.02e-05 s,4.34e-05 s
+B,3,57,70,dlx,3,6,serial,3.5e-05 s,6.59e-05 s
+B,4,26,10,naive,3,6,serial,5.4e-06 s,4.9e-06 s
+B,4,26,10,mrv,3,6,serial,6.8e-06 s,6.2e-06 s
+B,4,26,10,dlx,3,6,serial,1.93e-05 s,1.85e-05 s
+B,4,51,20,naive,3,6,serial,7.7e-06 s,7.8e-06 s
+B,4,51,20,mrv,3,6,serial,1.31e-05 s,1.71e-05 s
+B,4,51,20,dlx,3,6,serial,3.08e-05 s,3.07e-05 s
+B,4,77,30,naive,3,6,serial,7.7e-06 s,7.7e-06 s
+B,4,77,30,mrv,3,6,serial,9.4e-06 s,9e-06 s
+B,4,77,30,dlx,3,6,serial,4.56e-05 s,4.49e-05 s
+B,4,102,40,naive,3,6,serial,9.3e-06 s,2e-05 s
+B,4,102,40,mrv,3,6,serial,1.17e-05 s,1.18e-05 s
+B,4,102,40,dlx,3,6,serial,6.3e-05 s,6.33e-05 s
+B,4,128,50,naive,3,6,serial,0.0003154 s,0.002507 s
+B,4,128,50,mrv,3,6,serial,2.24e-05 s,2.29e-05 s
+B,4,128,50,dlx,3,6,serial,9.78e-05 s,0.0001028 s
+B,4,154,60,naive,3,6,parallel,timeout,pruned_by_prefix
+B,4,154,60,mrv,3,6,serial,0.06416 s,0.5948 s
+B,4,154,60,dlx,3,6,serial,0.0001916 s,0.0002363 s
+B,5,63,10,naive,3,6,serial,7.6e-06 s,1.07e-05 s
+B,5,63,10,mrv,3,6,serial,9.5e-06 s,9.6e-06 s
+B,5,63,10,dlx,3,6,serial,3.37e-05 s,4.29e-05 s
+B,5,125,20,naive,3,6,serial,9.3e-06 s,1.05e-05 s
+B,5,125,20,mrv,3,6,serial,1.25e-05 s,1.15e-05 s
+B,5,125,20,dlx,3,6,serial,7.93e-05 s,7.77e-05 s
+B,5,188,30,naive,3,6,serial,1.98e-05 s,4.15e-05 s
+B,5,188,30,mrv,3,6,serial,2.12e-05 s,2.18e-05 s
+B,5,188,30,dlx,3,6,serial,0.0001646 s,0.0001679 s
+B,5,250,40,naive,3,6,serial,0.06254 s,0.6672 s
+B,5,250,40,mrv,3,6,serial,5.15e-05 s,5.18e-05 s
+B,5,250,40,dlx,3,6,serial,0.000262 s,0.0002729 s
+B,5,313,50,naive,3,6,parallel,timeout,pruned_by_prefix
+B,5,313,50,mrv,3,6,parallel,9.593 s,timeout
+B,5,313,50,dlx,3,6,serial,0.0004338 s,0.0004071 s
+B,6,130,10,naive,3,6,serial,1.47e-05 s,1.5e-05 s
+B,6,130,10,mrv,3,6,serial,1.7e-05 s,1.74e-05 s
+B,6,130,10,dlx,3,6,serial,9.13e-05 s,9.39e-05 s
+B,6,259,20,naive,3,6,serial,2.41e-05 s,2.5e-05 s
+B,6,259,20,mrv,3,6,serial,2.52e-05 s,2.65e-05 s
+B,6,259,20,dlx,3,6,serial,0.000252 s,0.0002529 s
+B,6,389,30,naive,3,6,serial,0.00308 s,0.008773 s
+B,6,389,30,mrv,3,6,serial,5.4e-05 s,5.4e-05 s
+B,6,389,30,dlx,3,6,serial,0.0005489 s,0.0005488 s
+B,6,518,40,naive,3,6,parallel,timeout,timeout
+B,6,518,40,mrv,3,6,serial,0.001181 s,0.001449 s
+B,6,518,40,dlx,3,6,serial,0.0009485 s,0.0009587 s
+B,7,240,10,naive,3,6,serial,2.27e-05 s,2.36e-05 s
+B,7,240,10,mrv,3,6,serial,2.52e-05 s,2.48e-05 s
+B,7,240,10,dlx,3,6,serial,0.0002421 s,0.0002455 s
+B,7,480,20,naive,3,6,serial,4.4e-05 s,6.53e-05 s
+B,7,480,20,mrv,3,6,serial,4.36e-05 s,4.42e-05 s
+B,7,480,20,dlx,3,6,serial,0.0007602 s,0.0007739 s
+B,7,720,30,naive,3,6,serial,0.1093 s,0.1731 s
+B,7,720,30,mrv,3,6,serial,0.0001481 s,0.000136 s
+B,7,720,30,dlx,3,6,serial,0.001794 s,0.001681 s
+B,7,960,40,naive,3,6,parallel,timeout,pruned_by_prefix
+B,7,960,40,mrv,3,6,parallel,timeout,pruned_by_prefix
+B,7,960,40,dlx,3,6,serial,0.002936 s,0.00297 s
+B,8,410,10,naive,3,6,serial,4.22e-05 s,5.11e-05 s
+B,8,410,10,mrv,3,6,serial,4.51e-05 s,4.67e-05 s
+B,8,410,10,dlx,3,6,serial,0.0005929 s,0.0005961 s
+B,8,819,20,naive,3,6,serial,0.000182 s,0.002525 s
+B,8,819,20,mrv,3,6,serial,9.76e-05 s,0.0001081 s
+B,8,819,20,dlx,3,6,serial,0.002134 s,0.002141 s
+B,8,1229,30,naive,3,6,parallel,timeout,pruned_by_prefix
+B,8,1229,30,mrv,3,6,serial,0.0006779 s,0.0006727 s
+B,8,1229,30,dlx,3,6,serial,0.004746 s,0.004812 s
+B,9,656,10,naive,3,6,serial,7.73e-05 s,7.01e-05 s
+B,9,656,10,mrv,3,6,serial,7.6e-05 s,7.43e-05 s
+B,9,656,10,dlx,3,6,serial,0.001671 s,0.001387 s
+B,9,1312,20,naive,3,6,serial,0.03998 s,0.06258 s
+B,9,1312,20,mrv,3,6,serial,0.0002499 s,0.0002562 s
+B,9,1312,20,dlx,3,6,serial,0.00517 s,0.00533 s
+B,9,1968,30,naive,3,6,parallel,timeout,timeout
+B,9,1968,30,mrv,3,6,serial,0.004997 s,0.005264 s
+B,9,1968,30,dlx,3,6,serial,0.01239 s,0.01199 s
+B,10,1000,10,naive,3,6,serial,9.74e-05 s,0.0001018 s
+B,10,1000,10,mrv,3,6,serial,0.0001055 s,0.0001066 s
+B,10,1000,10,dlx,3,6,serial,0.003015 s,0.003038 s
+B,10,2000,20,naive,3,6,parallel,39.85 s,58.3 s
+B,10,2000,20,mrv,3,6,serial,0.0004825 s,0.0004816 s
+B,10,2000,20,dlx,3,6,serial,0.01193 s,0.01184 s
+B,10,3000,30,naive,1,2,parallel,,
+B,10,3000,30,mrv,1,2,parallel,,
+B,10,3000,30,dlx,1,2,parallel,,
+B,11,1464,10,naive,3,6,serial,0.0002009 s,0.0002174 s
+B,11,1464,10,mrv,3,6,serial,0.000174 s,0.0001921 s
+B,11,1464,10,dlx,3,6,serial,0.006158 s,0.00639 s
+B,11,2928,20,naive,3,6,parallel,timeout,pruned_by_prefix
+B,11,2928,20,mrv,3,6,serial,0.001023 s,0.001031 s
+B,11,2928,20,dlx,3,6,serial,0.02466 s,0.02478 s
+B,12,2074,10,naive,3,6,serial,0.000256 s,0.0004043 s
+B,12,2074,10,mrv,3,6,serial,0.0002634 s,0.0002705 s
+B,12,2074,10,dlx,3,6,serial,0.01191 s,0.012 s
+B,12,4147,20,naive,3,6,parallel,timeout,pruned_by_prefix
+B,12,4147,20,mrv,3,6,serial,0.002924 s,0.003282 s
+B,12,4147,20,dlx,3,6,serial,0.04797 s,0.04851 s
+B,13,2856,10,naive,3,6,serial,0.001039 s,0.001218 s
+B,13,2856,10,mrv,3,6,serial,0.0006813 s,0.0004307 s
+B,13,2856,10,dlx,3,6,serial,0.02297 s,0.02301 s
+B,13,5712,20,naive,3,6,parallel,timeout,pruned_by_prefix
+B,13,5712,20,mrv,3,6,serial,0.006754 s,0.006086 s
+B,13,5712,20,dlx,3,6,serial,0.09171 s,0.09049 s
+B,14,3842,10,naive,3,6,serial,0.003389 s,0.00709 s
+B,14,3842,10,mrv,3,6,serial,0.001058 s,0.0007977 s
+B,14,3842,10,dlx,3,6,serial,0.0409 s,0.04088 s
+B,14,7683,20,naive,3,6,parallel,timeout,pruned_by_prefix
+B,14,7683,20,mrv,3,6,serial,0.02074 s,0.02083 s
+B,14,7683,20,dlx,3,6,serial,0.1675 s,0.1717 s
+B,15,5063,10,naive,3,6,serial,0.0007045 s,0.003124 s
+B,15,5063,10,mrv,3,6,serial,0.0007953 s,0.0008296 s
+B,15,5063,10,dlx,3,6,serial,0.07091 s,0.07146 s
+B,15,10125,20,naive,3,6,parallel,timeout,timeout
+B,15,10125,20,mrv,3,6,serial,0.09253 s,0.09038 s
+B,15,10125,20,dlx,3,6,serial,0.2931 s,0.2888 s

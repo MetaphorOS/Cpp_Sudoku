@@ -1,0 +1,7 @@
+population,solver,op,pruned_by_prefix,timeout
+A,dlx,first,0,8
+A,dlx,unique,3,0
+A,mrv,first,0,5
+A,naive,first,0,6
+B,mrv,first,0,2
+B,naive,first,0,4

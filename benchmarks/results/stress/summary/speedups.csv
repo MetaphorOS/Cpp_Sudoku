@@ -1,0 +1,4 @@
+population,n,target_pct,empty,op,reference,challenger,pairs,both_completed,both_completed_serial,geomean_ratio,boot_lo,boot_hi,censored_wins_challenger,min_bound_challenger,censored_wins_reference,both_not_completed
+A,5,60,375,first,naive,mrv,1,0,0,,,,0,,0,1
+A,6,50,648,first,mrv,dlx,1,0,0,,,,0,,0,1
+A,6,70,907,first,mrv,dlx,1,0,0,,,,0,,0,1

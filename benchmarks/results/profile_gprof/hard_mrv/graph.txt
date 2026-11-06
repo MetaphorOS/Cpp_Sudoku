@@ -1,0 +1,9 @@
+			Call graph
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+
+Index by function name
+
